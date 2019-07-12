@@ -10,8 +10,6 @@ function App() {
         <h1>Trelloyes!</h1>
       </header>
       <div className='App-list'>
-        
-        {/* Copy/paste */}
         {store.lists.map(list => (
           <List
             key={list.id}
